@@ -1,7 +1,14 @@
 * {
     box-sizing: border-box;
+
 }
 
 .bg-box {
-    background-image: url(./images/main_background.webp), url(./images/grass.png) ;
+    width: 90%;
+    height: 800px;
+    background-color: green;
+    background-image: url(./images/main_background.webp), url(./images/grass.png), url(./images/hedgehog.webp), url(./images/donut.png), url(./images/bulb.png);
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+    background-position: center, bottom, left, right, top;
+    background-size: 400px 300px, 100px 200px, 100px 100px, 100px 100px, 100px 100px;
 }
