@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-box {
+    background-image: url(./images/main_background.webp), url(./images/grass.png) ;
+}
